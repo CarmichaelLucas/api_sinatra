@@ -1,5 +1,8 @@
 ## API com Sinatra
 
+**Base Url + port**
+* **_0.0.0.0:4567_**
+
 **Recurso** :point_down:
 >>>
 GET '/test'
