@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  api:
+    build:
+      dockerfile: ./docker/sinatra.dockerfile
+      context: .
+    container_name: sinatra_api
+    image: sinatra/api
+    command: bash -c "ruby app.rb -o '0.0.0.0'"
+    ports: 
+      - "4567:4567"
