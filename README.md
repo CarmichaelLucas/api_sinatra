@@ -10,14 +10,14 @@ GET '/test'
 
 **Tipos de Retorno:**
 
-* response [+success+] :point_down:
+* response **success** :point_down:
 
 ```json
 status 200
 body "ok"
 ```
 
-* response [-fail-] :point_down:
+* response **fail** :point_down:
 
 ```json
 status 500
